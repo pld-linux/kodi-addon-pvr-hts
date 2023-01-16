@@ -1,16 +1,16 @@
-%define		kodi_ver	19
+%define		kodi_ver	20
 %define		next_kodi_ver	%(echo $((%{kodi_ver}+1)))
-%define		codename	Matrix
+%define		codename	Nexus
 %define		addon		pvr.hts
 
 Summary:	Kodi's Tvheadend HTSP client addon
 Name:		kodi-addon-pvr-hts
-Version:	%{kodi_ver}.0.6
+Version:	%{kodi_ver}.6.0
 Release:	1
 License:	GPL v2+
 Group:		Applications/Multimedia
 Source0:	https://github.com/kodi-pvr/pvr.hts/archive/%{version}-%{codename}/%{version}-%{codename}.tar.gz
-# Source0-md5:	a0b5eb1b8821f458e12581e0950f238e
+# Source0-md5:	4c1f46a36943e2e17016967ad194bceb
 URL:		https://github.com/kodi-pvr/pvr.hts
 BuildRequires:	cmake >= 3.5
 BuildRequires:	kodi-devel >= %{kodi_ver}
