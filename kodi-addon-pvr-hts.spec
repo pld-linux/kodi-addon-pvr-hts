@@ -5,12 +5,12 @@
 
 Summary:	Kodi's Tvheadend HTSP client addon
 Name:		kodi-addon-pvr-hts
-Version:	%{kodi_ver}.7.0
+Version:	%{kodi_ver}.7.1
 Release:	1
 License:	GPL v2+
 Group:		Applications/Multimedia
 Source0:	https://github.com/kodi-pvr/pvr.hts/archive/%{version}-%{codename}/%{version}-%{codename}.tar.gz
-# Source0-md5:	5360b3fccc6802e337110d784913328e
+# Source0-md5:	d0fb4fd0f5fe1f6b4e346995252cbccd
 URL:		https://github.com/kodi-pvr/pvr.hts
 BuildRequires:	cmake >= 3.5
 BuildRequires:	kodi-devel >= %{kodi_ver}
